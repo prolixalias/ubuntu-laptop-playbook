@@ -1,0 +1,8 @@
+---
+# Install VS code.
+
+- name: Install VS code with package manager snap
+  snap:
+    name: code
+    classic: yes
+    state: present

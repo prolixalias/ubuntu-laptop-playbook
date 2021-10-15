@@ -24,17 +24,17 @@
     state: started
     enabled: yes
 
-- name: Install Virtualbox
-  package:
-    name: virtualbox
-    state: present
-  when: virtualbox_install
-  tags: virtualbox
+# - name: Install Virtualbox
+#   package:
+#     name: virtualbox
+#     state: present
+#   when: virtualbox_install
+#   tags: virtualbox
 
-- name: Install text editor Atom
-  import_tasks: setup-atom.yml
-  when: atom_install
-  tags: atom
+# - name: Install text editor Atom
+#   import_tasks: setup-atom.yml
+#   when: atom_install
+#   tags: atom
 
 - name: Install awscli
   import_tasks: setup-aws-cli.yml
@@ -60,3 +60,8 @@
   import_tasks: setup-spotify.yml
   when: spotify_install
   tags: spotify
+
+- name: Install VS code
+  import_tasks: setup-code.yml
+  when: code_install
+  tags: code

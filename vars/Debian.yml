@@ -1,11 +1,21 @@
 os_packages:
+  - bridge-utils
+  - cpu-checker
   - cryptsetup
+  - dnsmasq-base
+  - ebtables
   - ecryptfs-utils
   - filezilla
   - git
-  - golang
+  # - golang
+  - homesick
   - keepassx
   - libssl-dev
+  - libvirt-clients
+  - libvirt-daemon-system
+  - libvirt-dev
+  - libxml2-dev
+  - libxslt-dev
   - nmap
   - openssh-server
   - openvpn
@@ -13,12 +23,18 @@ os_packages:
   - python3-dev
   - python3-pip
   - python3-venv
+  - qemu
+  - qemu-kvm
+  - ruby-dev
+  - ruby-libvirt
   - snapd
   - terminator
+  - vagrant
   - vim
   - vlc
   - wget
   - wireshark
+  - zlib1g-dev
   - zsh
 
 docker_packages_requirement:
@@ -27,11 +43,11 @@ docker_packages_requirement:
   - curl
   - software-properties-common
 
-atom_os_packages:
-  - puppet-lint
-  - pylint
-  - shellcheck
-  - python3-flake8
+# atom_os_packages:
+#   - puppet-lint
+#   - pylint
+#   - shellcheck
+#   - python3-flake8
 
-atom_pip_packages:
-  - ansible-lint
+# atom_pip_packages:
+#   - ansible-lint

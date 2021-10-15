@@ -3,10 +3,10 @@
   remote_user: root
 
   roles:
-    - diodonfrost.puppet_agent
+    # - diodonfrost.puppet_agent
     - ubuntu-laptop-playbook
-    - diodonfrost.java
-    - diodonfrost.packer
+    # - diodonfrost.java
+    # - diodonfrost.packer
     - diodonfrost.vagrant
     - diodonfrost.terraform
     - role: diodonfrost.terragrunt

@@ -1,7 +1,7 @@
 ---
-- name: diodonfrost.java
+# - name: diodonfrost.java
 - name: diodonfrost.vagrant
-- name: diodonfrost.packer
+# - name: diodonfrost.packer
 - name: diodonfrost.terraform
 - name: diodonfrost.terragrunt
-- name: diodonfrost.ohmyzsh
+# - name: diodonfrost.ohmyzsh
