@@ -6,6 +6,7 @@ os_packages:
   - ebtables
   - ecryptfs-utils
   - filezilla
+  - fonts-powerline
   - git
   # - golang
   - homesick
@@ -36,6 +37,7 @@ os_packages:
   - wireshark
   - zlib1g-dev
   - zsh
+  - zsh-autosuggestions
 
 docker_packages_requirement:
   - apt-transport-https
