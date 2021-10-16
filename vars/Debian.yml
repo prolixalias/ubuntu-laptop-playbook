@@ -30,6 +30,7 @@ os_packages:
   - ruby-libvirt
   - snapd
   - terminator
+  - tmux
   - vagrant
   - vim
   - vlc
