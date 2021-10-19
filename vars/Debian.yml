@@ -17,6 +17,7 @@ os_packages:
   - libvirt-dev
   - libxml2-dev
   - libxslt-dev
+  - nfs-kernel-server
   - nmap
   - openssh-server
   - openvpn
@@ -54,3 +55,13 @@ docker_packages_requirement:
 
 # atom_pip_packages:
 #   - ansible-lint
+
+pwerline_users:
+  - user: ptalbot
+  - user: makenzie
+  
+powerline_fonts:
+  - RobotoMono          # the name of these fonts must match the name of the
+  - SourceCodePro       # font directory
+  - DejaVuSansMono
+  - UbuntuMono

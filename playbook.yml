@@ -10,6 +10,7 @@
     - diodonfrost.vagrant
     - diodonfrost.terraform
     - diodonfrost.terragrunt
+    - sicruse.powerline-fonts
     # - diodonfrost.ohmyzsh
 
   tasks:
