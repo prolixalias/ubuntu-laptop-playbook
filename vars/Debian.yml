@@ -57,7 +57,7 @@ docker_packages_requirement:
 # atom_pip_packages:
 #   - ansible-lint
 
-pwerline_users:
+powerline_users:
   - user: ptalbot
   - user: makenzie
   
